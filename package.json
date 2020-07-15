@@ -1,0 +1,27 @@
+{
+  "name": "11profesionaljs",
+  "version": "1.0.0",
+  "description": "Online design of a video-display platform. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lithyablake/VideoProject.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Mariana Cortés Rueda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lithyablake/VideoProject/issues"
+  },
+  "homepage": "https://github.com/Lithyablake/VideoProject#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
