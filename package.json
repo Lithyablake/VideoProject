@@ -13,10 +13,11 @@
   "keywords": [
     "JavaScript",
     "HTML",
-    "CSS"
+    "CSS", 
+    "Platzi"
   ],
   "author": "Mariana Cortés Rueda",
-  "license": "ISC",
+  "license": "Pendiente de averiguar los tipos de licencias",
   "bugs": {
     "url": "https://github.com/Lithyablake/VideoProject/issues"
   },

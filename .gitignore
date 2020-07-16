@@ -1,3 +1,7 @@
 ##Video sources - to be placed somewhere else after completion
-*.mp4
 assetVideos/*
+*.mp4
+
+assetImages/*
+*.jpg
+*.png
