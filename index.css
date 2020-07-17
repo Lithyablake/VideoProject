@@ -21,7 +21,7 @@ body {
 .header__img {
   margin-left: 30px;
   margin-top: 20px;
-  width: 70px;
+  width: 60px;
 }
 
 .header__menu {
@@ -83,18 +83,56 @@ body {
 .categories__title {
   color: white;
   font-size: 16px;
-  margin-top: -16px;
+  margin-top: 25px;
   position: absolute;
   padding-left: 30px;
   width: 100%;
 }
 
 .carousel {
-  overflow: scroll;
+  overflow-x: scroll;
+  margin-top: 60px;
   padding-left: 30px;
   width: 100%;
   position: relative;
 }
+
+/* Aquí el scroll */
+::-webkit-scrollbar {
+  height: 9px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8caca;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a27c7c;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #996c6c;
+}
+::-webkit-scrollbar-track {
+  background: #605c5c;
+  border: 0px none #ffffff;
+  border-radius: 34px;
+  margin: 0 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #464444;
+}
+::-webkit-scrollbar-track:active {
+  background: #424242;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* Aquí el scroll */
+
 
 .carousel__container {
   transition: 450ms -webkit-transform;
@@ -102,7 +140,7 @@ body {
   transition: 450ms transform, 450ms -webkit-transform;
   font-size: 0;
   white-space: nowrap;
-  margin: 70px 0px;
+  margin: 50px 0px 60px 20px;
   padding-bottom: 10px;
 }
 
@@ -163,6 +201,19 @@ body {
 .carousel-item__details--img {
   width: 20px;
   fill: white;
+}
+
+#First {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .carousel-item:hover .carousel-item__details {
